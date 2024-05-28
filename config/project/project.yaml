@@ -1,0 +1,106 @@
+dateModified: 1716914870
+email:
+  fromEmail: herremansma@gmail.com
+  fromName: werkpakket3
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads2:
+    hasUrls: true
+    name: uploads2
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    0ef1347f-b496-4218-a672-4eaf6ff064d8: 'zelf doen description' # zelf doen description
+    2b7978fc-0a46-4715-bbff-d1a1953ecedb: entry # entry
+    2f928769-e561-4d22-a7e4-67c03a8faada: logo # logo
+    4cad2df7-9991-4552-874f-36b7f97ea788: 'blog post image' # blog post image
+    4f6f2354-fd48-4a5f-bd2e-7e439637d8d9: 'blog post' # blog post
+    5dc0f315-1059-42e6-993d-9e9b89118369: 'sponsor logos' # sponsor logos
+    6c380e72-87de-4236-8ae7-66d077dd66ae: home # home
+    6c460b49-f86d-4b73-ae4e-e9a991c9e2b9: 'nav top' # nav top
+    9e33d045-0f1d-485a-b635-a143c24f1407: 'nav bottom' # nav bottom
+    21ab5c2c-cbb3-49eb-b2ae-ec6aca85d3d2: story # story
+    29e39072-19d9-4f1d-9cd5-ff0630730db5: 'waarom Image' # waarom Image
+    58e4b376-9d47-4e7e-99d7-ecf63e7ba7bf: 'blog title' # blog title
+    67dabfa2-22cb-40f8-980a-97412442e75c: 'nav voorwaarden' # nav voorwaarden
+    81f9d9c0-3cdf-47e6-a09b-9e6df9a4e93d: 'sponsor logo' # sponsor logo
+    88fee9b2-87ec-40c7-9017-256ff1b38dcf: 'blog post image' # blog post image
+    96b220b2-47fe-4d09-97f9-e178f2806150: 'blog post' # blog post
+    520ac7a0-22da-4e48-bbcb-0a510a45aa88: New # New
+    521f1473-dd93-4318-9ccf-cd4d9e0466a1: 'footer drie' # footer drie
+    670ead0b-44c9-4652-8a18-afeb1baf869b: 'Public Schema' # Public Schema
+    4675fcdc-3040-459d-8c40-bee239bcbde5: sponsor # sponsor
+    5005d25a-4523-4e99-86c3-345b01906bfc: 'nav footer' # nav footer
+    7190a5f6-235e-4f71-b883-56c33f206545: copyright # copyright
+    7212a28c-afff-4233-91b2-443668d12d7f: 'Contact Form' # Contact Form
+    024016e2-36a3-4bb8-a171-0be17e2e8f65: werkpakket3 # werkpakket3
+    259788c2-1c6c-436e-b741-080357ffdc18: 'hero image' # hero image
+    2834852d-83d7-48d9-a63a-a4624fd9f98a: 'zelf doen image' # zelf doen image
+    6799577d-f56f-4e7a-8521-0c72c30d5166: 'blog post Description' # blog post Description
+    a4f2e1d2-8993-4843-96cd-5777d4589934: 'footer twee' # footer twee
+    a6ff16f5-89a8-4fdd-b2c3-bed3e95db949: text # text
+    a72fd42c-ad64-44fe-93b1-5c5a3bccc4c7: uploads # uploads
+    a7667c93-5c45-4f1f-b7e8-31258d7c4484: header # header
+    add89f45-53d8-4ab3-8808-b6c8e31603c7: stories # stories
+    b3b4258e-fa53-4033-a49b-c8cbf7929fea: 'hero title' # hero title
+    b5747fbb-3ed3-4bc4-aace-dec17138090d: Waarom # Waarom
+    bc5f975d-9729-47f8-9c7b-2b9025908de6: 'blog post title' # blog post title
+    be6ebc28-68a8-4572-9f32-a4e858e6e39d: 'link destination' # link destination
+    ce464dc1-661a-42a4-9a45-30521ec90c94: 'blog post image twee' # blog post image twee
+    db9e533c-545a-48bb-99e8-7b84d4099469: 'links bottom' # links bottom
+    dc6877fa-1362-424e-a45f-fb8020437964: 'Waarom title' # Waarom title
+    de7d968b-52ec-4bd0-9e05-44c1c7199710: 'zelf doen title' # zelf doen title
+    e0b9a4e6-4aa6-476b-aec5-22adb5227691: 'nu in de tuin' # nu in de tuin
+    e680c0b8-a5dc-492e-9509-994ef1210f38: 'links top' # links top
+    e4477024-1e0e-43a4-bed3-465efd6586a2: 'sponsor text' # sponsor text
+    f9dd7255-adbb-48e7-9172-b73d82722aef: werkpakket3 # werkpakket3
+    f8033fa1-013e-41ae-8175-fb20cd57d847: 'footer een' # footer een
+plugins:
+  dumper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  enupal-translate:
+    edition: standard
+    enabled: true
+    licenseKey: USKMTSUF7E9QZLAEO13GW5N0
+    schemaVersion: 3.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.0.1
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: R8ZEQ5XO59BFDGNEVOFSXK0H
+    schemaVersion: 3.4.4
+  hyper:
+    edition: standard
+    enabled: true
+    licenseKey: FUO2I5DZEN58OBX5F07PFF5A
+    schemaVersion: 1.0.0
+  navigate:
+    edition: standard
+    enabled: true
+    licenseKey: 85PGKVOIC9NRCQKQSY55OBWE
+    schemaVersion: 2.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: werkpakket3
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

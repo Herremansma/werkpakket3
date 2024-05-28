@@ -1,0 +1,48 @@
+fieldLayouts:
+  e32d4f1e-f5e3-4c89-a50c-a5de7366093a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6c460b49-f86d-4b73-ae4e-e9a991c9e2b9 # nav top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ae97e045-abab-4416-81ba-41cc5bfaaad6
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'nav top'
+        uid: cb4f1c3d-971c-4a65-bcf8-2af8b51b7a76
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 9e33d045-0f1d-485a-b635-a143c24f1407 # nav bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 933bad3c-d83f-44bf-80eb-6168e9386ce4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a7fbb795-5a05-49f4-95c7-b0c94d7093ef
+        userCondition: null
+handle: header
+name: header
+sortOrder: 1

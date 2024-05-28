@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 21ab5c2c-cbb3-49eb-b2ae-ec6aca85d3d2 # story
+handle: stories
+maxAuthors: 1
+name: stories
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  024016e2-36a3-4bb8-a171-0be17e2e8f65: # werkpakket3
+    enabledByDefault: true
+    hasUrls: true
+    template: stories/_entry
+    uriFormat: 'stories/{slug}'
+type: channel

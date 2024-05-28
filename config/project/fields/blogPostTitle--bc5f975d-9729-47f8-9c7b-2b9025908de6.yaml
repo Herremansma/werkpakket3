@@ -1,0 +1,24 @@
+columnSuffix: null
+handle: blogPostTitle
+instructions: null
+name: 'blog post title'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

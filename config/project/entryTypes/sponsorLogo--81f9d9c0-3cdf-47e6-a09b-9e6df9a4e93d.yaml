@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  a835c9e7-ac75-43a9-be78-9a93ec29ecf2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4675fcdc-3040-459d-8c40-bee239bcbde5 # sponsor
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a107d775-d3c7-4a30-9e4a-678586f895ed
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 85d8ddb8-e60b-4f49-883f-b26f4633deaa
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2d846218-a4ba-4f95-95a4-ed26663d73ac
+        userCondition: null
+handle: sponsorLogo
+hasTitleField: true
+icon: ''
+name: 'sponsor logo'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

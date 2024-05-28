@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: navFooter
+instructions: null
+name: 'nav footer'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - db9e533c-545a-48bb-99e8-7b84d4099469 # links bottom
+    - e680c0b8-a5dc-492e-9509-994ef1210f38 # links top
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

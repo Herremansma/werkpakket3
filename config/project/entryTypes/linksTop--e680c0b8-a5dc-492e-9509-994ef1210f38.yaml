@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  ff089a73-eaf1-468a-9121-e7890cc07e33:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 05a2ead2-5989-46c8-81f0-b6f8216216fc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: be6ebc28-68a8-4572-9f32-a4e858e6e39d # link destination
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 86465654-0460-43bf-b4f8-6a4f42d7e17e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 043dd7c3-f3c4-496c-9a54-6ce29be3407d
+        userCondition: null
+handle: linksTop
+hasTitleField: true
+icon: ''
+name: 'links top'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

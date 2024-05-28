@@ -1,0 +1,86 @@
+{% extends "index" %}
+
+{% block content %}
+
+{% set image = entry.heroImage.one() %}
+<section class="hero">
+<div>
+<h1>{{ entry.heroTitle }}</h1>
+</div>
+</section>
+
+<section>
+<div>
+<h1>{{ entry.nuInDeTuin }}</h1>
+{% for blogPost in entry.blogs.all() %}
+<div>
+{{ entry.blogs.blogPostTitle}}
+</div>
+{% endfor %}
+</div>
+</section>
+
+
+<section class="waarom">
+<div>
+<h1>{{ entry.waaromTitle }}</h1>
+<p>{{ entry.waarom }}</p>
+</div>
+</section>
+
+<section class="zelf">
+<div>
+<h1>{{ entry.zelfDoenTitle }}</h1>
+<p>{{ entry.zelfDoenDescription }}</p>
+</div>
+</section>
+
+<section>
+<header class="header">
+
+{% set headerEntry = craft.entries.section('header').one() %}
+
+{% for linksTop in header.navTop.all() %}
+{% set destination = linksTop.linkDestination.one() %}
+<a href="{{ destination.url }}"> {{ linksTop.title}}</a>
+{% endfor%}
+
+<br>
+
+{% for linksBottom in header.navBottom.all() %}
+{% set destination = linksBottom.linkDestination.one() %}
+<a href="{{ destination.url }}"> {{ linksBottom.title}}</a>
+{% endfor%}
+
+</header>
+
+<footer class="footerEen">
+
+{% set footerEenEntry = craft.entries.section('footerEen').one() %}
+
+{% for linksTop in footerEen.navFooter.all() %}
+{% set destination = linksTop.linkDestination.one() %}
+<a href="{{ destination.url }}"> {{ linksTop.title}}</a>
+{% endfor%}
+
+
+</footer>
+
+<footer class="footerTwee">
+
+</footer>
+
+<footer class="footerDrie">
+
+{% set footerDrieEntry = craft.entries.section('footerDrie').one() %}
+
+{{ footerDrie.copyright}}
+
+{% for linksBottom in footerDrie.navVoorwaarden.all() %}
+{% set destination = linksBottom.linkDestination.one() %}
+<a href="{{ destination.url }}"> {{ linksBottom.title }}</a>
+{% endfor%}
+
+
+</section>
+{% endblock %}

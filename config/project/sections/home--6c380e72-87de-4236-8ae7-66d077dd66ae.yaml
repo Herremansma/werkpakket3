@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 2b7978fc-0a46-4715-bbff-d1a1953ecedb # entry
+handle: home
+maxAuthors: 1
+name: home
+propagationMethod: all
+siteSettings:
+  024016e2-36a3-4bb8-a171-0be17e2e8f65: # werkpakket3
+    enabledByDefault: true
+    hasUrls: true
+    template: home
+    uriFormat: __home__
+type: single

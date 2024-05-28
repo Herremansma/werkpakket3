@@ -1,0 +1,42 @@
+fieldLayouts:
+  0de4e95b-ebb0-458e-9899-5840a40ee621:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e4477024-1e0e-43a4-bed3-465efd6586a2 # sponsor text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b2c8a139-2ccb-4c72-93ce-fd3202cc02d0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5dc0f315-1059-42e6-993d-9e9b89118369 # sponsor logos
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 65f6f895-2695-49e3-b6ea-539f6ea02481
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e2f28af0-343f-49eb-8429-29b9a24b1d3e
+        userCondition: null
+handle: footerTwee
+name: 'footer twee'
+sortOrder: 3
